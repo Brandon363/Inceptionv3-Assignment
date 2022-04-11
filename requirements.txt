@@ -3,5 +3,5 @@ keras==2.8.0
 tensorflow==2.8.0
 opencv-python==4.5.5.64
 matplotlib==3.3.2
-numpy==1.19.5
+numpy==1.22.3
 glob2==0.7
