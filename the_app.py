@@ -3,7 +3,7 @@ pip install opencv-python
 from keras.preprocessing.image import load_img, img_to_array
 from keras.applications.inception_v3 import preprocess_input, decode_predictions, InceptionV3
 from tensorflow.keras.models import load_model
-import cv2
+import cv2.cv
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
