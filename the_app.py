@@ -1,6 +1,5 @@
 import streamlit as st
-apt-get update
-apt-get install ffmpeg libsm6 libxext -y
+
 from keras.preprocessing.image import load_img, img_to_array
 from keras.applications.inception_v3 import preprocess_input, decode_predictions, InceptionV3
 from tensorflow.keras.models import load_model
