@@ -94,7 +94,7 @@ if rad == "Home":
                     #    break
                         
                 vid.release()
-                cv2.destroyAllWindows()
+                #cv2.destroyAllWindows()
 
         #######################################################################################  
 
