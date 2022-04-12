@@ -103,8 +103,8 @@ if rad == "Home":
         ##############################################################################################
 
         #load the model
-        #model_inception = load_model('model/inception.h5')
-        model_inception = InceptionV3()
+        model_inception = load_model('static/inception.h5')
+        #model_inception = InceptionV3()
 
 
         #load an image from file
@@ -182,7 +182,7 @@ elif rad == "About The Developers":
         taf_pic = load_img("static/tafadzwa_pic.jpg", target_size=(300, 350))
         st.image(taf_pic, caption = "R205761T")
 
-    st.write("The above are two developers aspiring data scientists who, by the time this app was deployed, where completing their second accademic year at the University of Zimbabwe")
+    st.write("The above are two young developers and aspiring data scientists, driven by a strong PASSION AND PURPOSE for solving data problems")
 
 
 
